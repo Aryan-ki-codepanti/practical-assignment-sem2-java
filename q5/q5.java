@@ -76,5 +76,7 @@ public class q5 {
         System.out.println("POPED : " + s.pop());
         s.display();
         System.out.println("POPED : " + s.pop());
+        s.push(4);
+        s.display();
     }
 }
