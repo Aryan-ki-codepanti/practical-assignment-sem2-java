@@ -26,6 +26,7 @@ public class q6 {
                 destinationFile.write(line + "\n");
             }
             destinationFile.close();
+            sc.close();
         }
         catch(IOException e){
             System.out.println("Error occured : " + e);
